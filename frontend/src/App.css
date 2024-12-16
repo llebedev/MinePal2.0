@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1%;
+  scroll-behavior: smooth;
+}
+
+.nickInput {
+  margin-top: 15%;
+}
+
+input {
+  width: 50%;
+  height: 40px;
+  padding-left: 1.5%;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  background-color: rgba(45, 41, 47, 0.7);
+}
+
+.host {
+  display: flex;
+}
+
+.nickInput:focus,
+.nickInput:focus-visible
+{
+  outline: none;
+  border: none;
+}
+
+.title h1 {
+  background-image: linear-gradient(45deg, rgba(249, 225, 8, 0.667), rgba(249, 225, 8, 0.7),rgba(255, 255, 255, 0.7) );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.panel {
+  background-image: linear-gradient(45deg,#0e0310,#2a0c2f );
+  padding: 32px 32px;
+  padding-right: 15%;
+  border-radius: 20px;
+}
+
+.startBtn {
+  background-image: linear-gradient(45deg,#8e5ba7,#4a3b53 );
+  border-radius: 12px;
+  border: none;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 15px 32px;
+  text-align: center;
+  width: 50%;
+  height: 50%;
+}
